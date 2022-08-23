@@ -1,4 +1,4 @@
-module github.com/microsoftgraph/msgraph-sdk-go
+module github.com/msl8r/msgraph-sdk-go
 
 go 1.18
 
