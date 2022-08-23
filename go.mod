@@ -6,6 +6,7 @@ require (
 	github.com/microsoft/kiota-abstractions-go v0.8.2
 	github.com/microsoft/kiota-serialization-json-go v0.5.5
 	github.com/microsoft/kiota-serialization-text-go v0.4.1
+	github.com/microsoftgraph/msgraph-sdk-go v0.34.0
 	github.com/microsoftgraph/msgraph-sdk-go-core v0.27.0
 )
 
