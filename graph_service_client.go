@@ -9,32 +9,32 @@ import (
 	i1cb1089a14118ff1e1e1bd2d5f465b91b163bfc288e9bb57dc21502014e6b0c1 "github.com/microsoftgraph/msgraph-sdk-go/applications/item"
 	i5310ba7d4cfddbf5de4c1be94a30f9ca8c747c30a87e76587ce88d1cbfff01b4 "github.com/microsoftgraph/msgraph-sdk-go/applicationtemplates"
 	i2cc346a33133d41934cfa6e862c4eb0d4cf1dc36485198c479852b282338a897 "github.com/microsoftgraph/msgraph-sdk-go/applicationtemplates/item"
-	i20b08d3949f1191430a14a315e0758a1f131dc59bbdc93e654f1dd447a6af14c "github.com/microsoftgraph/msgraph-sdk-go/auditlogs"
-	i1dc06c4b7f499cb445a6c55e466abd6d7466bb35a2683c675909db23c57898e7 "github.com/microsoftgraph/msgraph-sdk-go/authenticationmethodconfigurations"
-	ieffc66507ab5f28c86663605f795e5c0be2a4353a94b34e8db2ddb67b0d285cf "github.com/microsoftgraph/msgraph-sdk-go/authenticationmethodconfigurations/item"
-	id81f15a01b3ceaefa8b1b55f4ee944912f2179aafc4d873f0a2eaf0853eeccd0 "github.com/microsoftgraph/msgraph-sdk-go/authenticationmethodspolicy"
-	i535d6c02ba98f73ff3a8c1c12a035ba5de51606f93aa2c0babdfed56fe505550 "github.com/microsoftgraph/msgraph-sdk-go/certificatebasedauthconfiguration"
-	i861ab10f93223993f014e54921d0feda5bc5dc9a8996dbbbb728e672d3e8162e "github.com/microsoftgraph/msgraph-sdk-go/certificatebasedauthconfiguration/item"
-	ib14d748b564c787931c10f1c7ba6856eeddea29a5b9e5c5c27eb1224ff65e5c4 "github.com/microsoftgraph/msgraph-sdk-go/directory"
-	i185698f71f6301975f0627ee999e6e91920d8fa9c00bdef3487b9f349e2df04e "github.com/microsoftgraph/msgraph-sdk-go/directoryobjects"
-	iec09f6187bc7a92a35b70b7fc70909dda436df66ea66bc31a862c86f0819cc15 "github.com/microsoftgraph/msgraph-sdk-go/directoryobjects/item"
-	id4615a956cb1e7edabf8f5a4bc131d1ceca9a13d0f79ae0e122997452a9a0a4e "github.com/microsoftgraph/msgraph-sdk-go/directoryroles"
-	i960f074bae2d1f849aec23c162b7be41055a1485f8efd075e3c89717cc4ac8f5 "github.com/microsoftgraph/msgraph-sdk-go/directoryroles/item"
-	i2a252d42835bdab6d88bf938595da6cf029001f9ca970d6f599cecf0ca27f8e5 "github.com/microsoftgraph/msgraph-sdk-go/directoryroletemplates"
-	icf62d3bb4e29c8437041430705851ef556cb3cf91d77df26e8eaf92a32e9814e "github.com/microsoftgraph/msgraph-sdk-go/directoryroletemplates/item"
-	i86cada4d4a5f2f8a9d1e7a85eacd70a661ea7b20d2737008c0719e95b5be3e16 "github.com/microsoftgraph/msgraph-sdk-go/oauth2permissiongrants"
-	iebc0e64fadb20869bf2f248e5faa74af9d045c37a2822fb75e314761ad44656d "github.com/microsoftgraph/msgraph-sdk-go/oauth2permissiongrants/item"
-	i1a1369b1521a8ac4885166fd68eae4247248a891006fea464d2eea2a271b2cdb "github.com/microsoftgraph/msgraph-sdk-go/permissiongrants"
-	i23bab38fb8688d4bab0b6ffc533eb085d40e58af49a27ab228a8d1ad3e0ab203 "github.com/microsoftgraph/msgraph-sdk-go/permissiongrants/item"
-	i9429d7aae2f5c1dabbecc9411e8ad2b733d29338bc0c0436eeccc94605c461b7 "github.com/microsoftgraph/msgraph-sdk-go/print"
-	i58857a108d6e260e56ef0dd7e783668388f113eb436006780703ac59f0abb3b1 "github.com/microsoftgraph/msgraph-sdk-go/privacy"
-	ice10f31b9db59ba91184d2b882172edb754f885050cf0830aa2b7c8ff880556b "github.com/microsoftgraph/msgraph-sdk-go/scopedrolememberships"
-	id5e9a05bae8f5cd30c57fd87690f009f004424eafeb45208f44e7ed46f8ba725 "github.com/microsoftgraph/msgraph-sdk-go/scopedrolememberships/item"
-	i286f3babd79fe9ec3b0f52b6ed5910842c0adaeff02be1843d0e01c56d9ba6d9 "github.com/microsoftgraph/msgraph-sdk-go/search"
-	i009f47bbce65ccdb7303730eed71e6bab3ae2f8e4e918bc9e94341d28624af97 "github.com/microsoftgraph/msgraph-sdk-go/serviceprincipals"
-	i120b7d5508b5c9e9e49c562cc2c54282d0cac65c8ec72e8928f45cc697956915 "github.com/microsoftgraph/msgraph-sdk-go/serviceprincipals/item"
-	idb8230b65f4a369c23b4d9b41ebe568c657c92f8f77fe36d16d64528b3a317a3 "github.com/microsoftgraph/msgraph-sdk-go/subscriptions"
-	if405c95e51d6685837bc60276ac44a0be46f00a5930cc59ce198c3a5119099a0 "github.com/microsoftgraph/msgraph-sdk-go/subscriptions/item"
+	//i20b08d3949f1191430a14a315e0758a1f131dc59bbdc93e654f1dd447a6af14c "github.com/microsoftgraph/msgraph-sdk-go/auditlogs"
+	//i1dc06c4b7f499cb445a6c55e466abd6d7466bb35a2683c675909db23c57898e7 "github.com/microsoftgraph/msgraph-sdk-go/authenticationmethodconfigurations"
+	//ieffc66507ab5f28c86663605f795e5c0be2a4353a94b34e8db2ddb67b0d285cf "github.com/microsoftgraph/msgraph-sdk-go/authenticationmethodconfigurations/item"
+	//id81f15a01b3ceaefa8b1b55f4ee944912f2179aafc4d873f0a2eaf0853eeccd0 "github.com/microsoftgraph/msgraph-sdk-go/authenticationmethodspolicy"
+	//i535d6c02ba98f73ff3a8c1c12a035ba5de51606f93aa2c0babdfed56fe505550 "github.com/microsoftgraph/msgraph-sdk-go/certificatebasedauthconfiguration"
+	//i861ab10f93223993f014e54921d0feda5bc5dc9a8996dbbbb728e672d3e8162e "github.com/microsoftgraph/msgraph-sdk-go/certificatebasedauthconfiguration/item"
+	//ib14d748b564c787931c10f1c7ba6856eeddea29a5b9e5c5c27eb1224ff65e5c4 "github.com/microsoftgraph/msgraph-sdk-go/directory"
+	//i185698f71f6301975f0627ee999e6e91920d8fa9c00bdef3487b9f349e2df04e "github.com/microsoftgraph/msgraph-sdk-go/directoryobjects"
+	//iec09f6187bc7a92a35b70b7fc70909dda436df66ea66bc31a862c86f0819cc15 "github.com/microsoftgraph/msgraph-sdk-go/directoryobjects/item"
+	//id4615a956cb1e7edabf8f5a4bc131d1ceca9a13d0f79ae0e122997452a9a0a4e "github.com/microsoftgraph/msgraph-sdk-go/directoryroles"
+	//i960f074bae2d1f849aec23c162b7be41055a1485f8efd075e3c89717cc4ac8f5 "github.com/microsoftgraph/msgraph-sdk-go/directoryroles/item"
+	//i2a252d42835bdab6d88bf938595da6cf029001f9ca970d6f599cecf0ca27f8e5 "github.com/microsoftgraph/msgraph-sdk-go/directoryroletemplates"
+	//icf62d3bb4e29c8437041430705851ef556cb3cf91d77df26e8eaf92a32e9814e "github.com/microsoftgraph/msgraph-sdk-go/directoryroletemplates/item"
+	//i86cada4d4a5f2f8a9d1e7a85eacd70a661ea7b20d2737008c0719e95b5be3e16 "github.com/microsoftgraph/msgraph-sdk-go/oauth2permissiongrants"
+	//iebc0e64fadb20869bf2f248e5faa74af9d045c37a2822fb75e314761ad44656d "github.com/microsoftgraph/msgraph-sdk-go/oauth2permissiongrants/item"
+	//i1a1369b1521a8ac4885166fd68eae4247248a891006fea464d2eea2a271b2cdb "github.com/microsoftgraph/msgraph-sdk-go/permissiongrants"
+	//i23bab38fb8688d4bab0b6ffc533eb085d40e58af49a27ab228a8d1ad3e0ab203 "github.com/microsoftgraph/msgraph-sdk-go/permissiongrants/item"
+	//i9429d7aae2f5c1dabbecc9411e8ad2b733d29338bc0c0436eeccc94605c461b7 "github.com/microsoftgraph/msgraph-sdk-go/print"
+	//i58857a108d6e260e56ef0dd7e783668388f113eb436006780703ac59f0abb3b1 "github.com/microsoftgraph/msgraph-sdk-go/privacy"
+	//ice10f31b9db59ba91184d2b882172edb754f885050cf0830aa2b7c8ff880556b "github.com/microsoftgraph/msgraph-sdk-go/scopedrolememberships"
+	//id5e9a05bae8f5cd30c57fd87690f009f004424eafeb45208f44e7ed46f8ba725 "github.com/microsoftgraph/msgraph-sdk-go/scopedrolememberships/item"
+	//i286f3babd79fe9ec3b0f52b6ed5910842c0adaeff02be1843d0e01c56d9ba6d9 "github.com/microsoftgraph/msgraph-sdk-go/search"
+	//i009f47bbce65ccdb7303730eed71e6bab3ae2f8e4e918bc9e94341d28624af97 "github.com/microsoftgraph/msgraph-sdk-go/serviceprincipals"
+	//i120b7d5508b5c9e9e49c562cc2c54282d0cac65c8ec72e8928f45cc697956915 "github.com/microsoftgraph/msgraph-sdk-go/serviceprincipals/item"
+	//idb8230b65f4a369c23b4d9b41ebe568c657c92f8f77fe36d16d64528b3a317a3 "github.com/microsoftgraph/msgraph-sdk-go/subscriptions"
+	//if405c95e51d6685837bc60276ac44a0be46f00a5930cc59ce198c3a5119099a0 "github.com/microsoftgraph/msgraph-sdk-go/subscriptions/item"
 	//if6ffd1464db2d9c22e351b03e4c00ebd24a5353cd70ffb7f56cfad1c3ceec329 "github.com/microsoftgraph/msgraph-sdk-go/users"
 	//i009581390843c78f63b06f9dcefeeb5ef2a124a2ac1dcbad3adbe4d0d5e650af "github.com/microsoftgraph/msgraph-sdk-go/users/item"
 )
@@ -127,54 +127,55 @@ func (m *GraphServiceClient) ApplicationTemplatesById(id string) *i2cc346a33133d
 	return i2cc346a33133d41934cfa6e862c4eb0d4cf1dc36485198c479852b282338a897.NewApplicationTemplateItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
 }
 
-// AuditLogs the auditLogs property
-func (m *GraphServiceClient) AuditLogs() *i20b08d3949f1191430a14a315e0758a1f131dc59bbdc93e654f1dd447a6af14c.AuditLogsRequestBuilder {
-	return i20b08d3949f1191430a14a315e0758a1f131dc59bbdc93e654f1dd447a6af14c.NewAuditLogsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// AuthenticationMethodConfigurations the authenticationMethodConfigurations property
-func (m *GraphServiceClient) AuthenticationMethodConfigurations() *i1dc06c4b7f499cb445a6c55e466abd6d7466bb35a2683c675909db23c57898e7.AuthenticationMethodConfigurationsRequestBuilder {
-	return i1dc06c4b7f499cb445a6c55e466abd6d7466bb35a2683c675909db23c57898e7.NewAuthenticationMethodConfigurationsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// AuthenticationMethodConfigurationsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.authenticationMethodConfigurations.item collection
-func (m *GraphServiceClient) AuthenticationMethodConfigurationsById(id string) *ieffc66507ab5f28c86663605f795e5c0be2a4353a94b34e8db2ddb67b0d285cf.AuthenticationMethodConfigurationItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["authenticationMethodConfiguration%2Did"] = id
-	}
-	return ieffc66507ab5f28c86663605f795e5c0be2a4353a94b34e8db2ddb67b0d285cf.NewAuthenticationMethodConfigurationItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
-
-// AuthenticationMethodsPolicy the authenticationMethodsPolicy property
-func (m *GraphServiceClient) AuthenticationMethodsPolicy() *id81f15a01b3ceaefa8b1b55f4ee944912f2179aafc4d873f0a2eaf0853eeccd0.AuthenticationMethodsPolicyRequestBuilder {
-	return id81f15a01b3ceaefa8b1b55f4ee944912f2179aafc4d873f0a2eaf0853eeccd0.NewAuthenticationMethodsPolicyRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
+//
+//// AuditLogs the auditLogs property
+//func (m *GraphServiceClient) AuditLogs() *i20b08d3949f1191430a14a315e0758a1f131dc59bbdc93e654f1dd447a6af14c.AuditLogsRequestBuilder {
+//	return i20b08d3949f1191430a14a315e0758a1f131dc59bbdc93e654f1dd447a6af14c.NewAuditLogsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// AuthenticationMethodConfigurations the authenticationMethodConfigurations property
+//func (m *GraphServiceClient) AuthenticationMethodConfigurations() *i1dc06c4b7f499cb445a6c55e466abd6d7466bb35a2683c675909db23c57898e7.AuthenticationMethodConfigurationsRequestBuilder {
+//	return i1dc06c4b7f499cb445a6c55e466abd6d7466bb35a2683c675909db23c57898e7.NewAuthenticationMethodConfigurationsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// AuthenticationMethodConfigurationsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.authenticationMethodConfigurations.item collection
+//func (m *GraphServiceClient) AuthenticationMethodConfigurationsById(id string) *ieffc66507ab5f28c86663605f795e5c0be2a4353a94b34e8db2ddb67b0d285cf.AuthenticationMethodConfigurationItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["authenticationMethodConfiguration%2Did"] = id
+//	}
+//	return ieffc66507ab5f28c86663605f795e5c0be2a4353a94b34e8db2ddb67b0d285cf.NewAuthenticationMethodConfigurationItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
+//
+//// AuthenticationMethodsPolicy the authenticationMethodsPolicy property
+//func (m *GraphServiceClient) AuthenticationMethodsPolicy() *id81f15a01b3ceaefa8b1b55f4ee944912f2179aafc4d873f0a2eaf0853eeccd0.AuthenticationMethodsPolicyRequestBuilder {
+//	return id81f15a01b3ceaefa8b1b55f4ee944912f2179aafc4d873f0a2eaf0853eeccd0.NewAuthenticationMethodsPolicyRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
 
 //// Branding the branding property
 //func (m *GraphServiceClient) Branding() *if398f5c2f1cb53106e045240edd469d82f1854899fd95cfdf8f559b19375750c.BrandingRequestBuilder {
 //	return if398f5c2f1cb53106e045240edd469d82f1854899fd95cfdf8f559b19375750c.NewBrandingRequestBuilderInternal(m.pathParameters, m.requestAdapter)
 //}
 
-// CertificateBasedAuthConfiguration the certificateBasedAuthConfiguration property
-func (m *GraphServiceClient) CertificateBasedAuthConfiguration() *i535d6c02ba98f73ff3a8c1c12a035ba5de51606f93aa2c0babdfed56fe505550.CertificateBasedAuthConfigurationRequestBuilder {
-	return i535d6c02ba98f73ff3a8c1c12a035ba5de51606f93aa2c0babdfed56fe505550.NewCertificateBasedAuthConfigurationRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
+//// CertificateBasedAuthConfiguration the certificateBasedAuthConfiguration property
+//func (m *GraphServiceClient) CertificateBasedAuthConfiguration() *i535d6c02ba98f73ff3a8c1c12a035ba5de51606f93aa2c0babdfed56fe505550.CertificateBasedAuthConfigurationRequestBuilder {
+//	return i535d6c02ba98f73ff3a8c1c12a035ba5de51606f93aa2c0babdfed56fe505550.NewCertificateBasedAuthConfigurationRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
 
-// CertificateBasedAuthConfigurationById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.certificateBasedAuthConfiguration.item collection
-func (m *GraphServiceClient) CertificateBasedAuthConfigurationById(id string) *i861ab10f93223993f014e54921d0feda5bc5dc9a8996dbbbb728e672d3e8162e.CertificateBasedAuthConfigurationItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["certificateBasedAuthConfiguration%2Did"] = id
-	}
-	return i861ab10f93223993f014e54921d0feda5bc5dc9a8996dbbbb728e672d3e8162e.NewCertificateBasedAuthConfigurationItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
+//// CertificateBasedAuthConfigurationById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.certificateBasedAuthConfiguration.item collection
+//func (m *GraphServiceClient) CertificateBasedAuthConfigurationById(id string) *i861ab10f93223993f014e54921d0feda5bc5dc9a8996dbbbb728e672d3e8162e.CertificateBasedAuthConfigurationItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["certificateBasedAuthConfiguration%2Did"] = id
+//	}
+//	return i861ab10f93223993f014e54921d0feda5bc5dc9a8996dbbbb728e672d3e8162e.NewCertificateBasedAuthConfigurationItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
 
 //
 //// Chats the chats property
@@ -316,60 +317,60 @@ func NewGraphServiceClient(requestAdapter i2ae4187f7daee263371cb1c977df639813ab5
 //    return ib6d66da0f7d4860b7205f5fdb1200fc9000adb4fbc853a2f05f70c644580220f.NewDeviceItemRequestBuilderInternal(urlTplParams, m.requestAdapter);
 //}
 // Directory the directory property
-func (m *GraphServiceClient) Directory() *ib14d748b564c787931c10f1c7ba6856eeddea29a5b9e5c5c27eb1224ff65e5c4.DirectoryRequestBuilder {
-	return ib14d748b564c787931c10f1c7ba6856eeddea29a5b9e5c5c27eb1224ff65e5c4.NewDirectoryRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
+//func (m *GraphServiceClient) Directory() *ib14d748b564c787931c10f1c7ba6856eeddea29a5b9e5c5c27eb1224ff65e5c4.DirectoryRequestBuilder {
+//	return ib14d748b564c787931c10f1c7ba6856eeddea29a5b9e5c5c27eb1224ff65e5c4.NewDirectoryRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// DirectoryObjects the directoryObjects property
+//func (m *GraphServiceClient) DirectoryObjects() *i185698f71f6301975f0627ee999e6e91920d8fa9c00bdef3487b9f349e2df04e.DirectoryObjectsRequestBuilder {
+//	return i185698f71f6301975f0627ee999e6e91920d8fa9c00bdef3487b9f349e2df04e.NewDirectoryObjectsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// DirectoryObjectsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.directoryObjects.item collection
+//func (m *GraphServiceClient) DirectoryObjectsById(id string) *iec09f6187bc7a92a35b70b7fc70909dda436df66ea66bc31a862c86f0819cc15.DirectoryObjectItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["directoryObject%2Did"] = id
+//	}
+//	return iec09f6187bc7a92a35b70b7fc70909dda436df66ea66bc31a862c86f0819cc15.NewDirectoryObjectItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
 
-// DirectoryObjects the directoryObjects property
-func (m *GraphServiceClient) DirectoryObjects() *i185698f71f6301975f0627ee999e6e91920d8fa9c00bdef3487b9f349e2df04e.DirectoryObjectsRequestBuilder {
-	return i185698f71f6301975f0627ee999e6e91920d8fa9c00bdef3487b9f349e2df04e.NewDirectoryObjectsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
+//// DirectoryRoles the directoryRoles property
+//func (m *GraphServiceClient) DirectoryRoles() *id4615a956cb1e7edabf8f5a4bc131d1ceca9a13d0f79ae0e122997452a9a0a4e.DirectoryRolesRequestBuilder {
+//	return id4615a956cb1e7edabf8f5a4bc131d1ceca9a13d0f79ae0e122997452a9a0a4e.NewDirectoryRolesRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// DirectoryRolesById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.directoryRoles.item collection
+//func (m *GraphServiceClient) DirectoryRolesById(id string) *i960f074bae2d1f849aec23c162b7be41055a1485f8efd075e3c89717cc4ac8f5.DirectoryRoleItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["directoryRole%2Did"] = id
+//	}
+//	return i960f074bae2d1f849aec23c162b7be41055a1485f8efd075e3c89717cc4ac8f5.NewDirectoryRoleItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
+//
+//// DirectoryRoleTemplates the directoryRoleTemplates property
+//func (m *GraphServiceClient) DirectoryRoleTemplates() *i2a252d42835bdab6d88bf938595da6cf029001f9ca970d6f599cecf0ca27f8e5.DirectoryRoleTemplatesRequestBuilder {
+//	return i2a252d42835bdab6d88bf938595da6cf029001f9ca970d6f599cecf0ca27f8e5.NewDirectoryRoleTemplatesRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
 
-// DirectoryObjectsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.directoryObjects.item collection
-func (m *GraphServiceClient) DirectoryObjectsById(id string) *iec09f6187bc7a92a35b70b7fc70909dda436df66ea66bc31a862c86f0819cc15.DirectoryObjectItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["directoryObject%2Did"] = id
-	}
-	return iec09f6187bc7a92a35b70b7fc70909dda436df66ea66bc31a862c86f0819cc15.NewDirectoryObjectItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
-
-// DirectoryRoles the directoryRoles property
-func (m *GraphServiceClient) DirectoryRoles() *id4615a956cb1e7edabf8f5a4bc131d1ceca9a13d0f79ae0e122997452a9a0a4e.DirectoryRolesRequestBuilder {
-	return id4615a956cb1e7edabf8f5a4bc131d1ceca9a13d0f79ae0e122997452a9a0a4e.NewDirectoryRolesRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// DirectoryRolesById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.directoryRoles.item collection
-func (m *GraphServiceClient) DirectoryRolesById(id string) *i960f074bae2d1f849aec23c162b7be41055a1485f8efd075e3c89717cc4ac8f5.DirectoryRoleItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["directoryRole%2Did"] = id
-	}
-	return i960f074bae2d1f849aec23c162b7be41055a1485f8efd075e3c89717cc4ac8f5.NewDirectoryRoleItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
-
-// DirectoryRoleTemplates the directoryRoleTemplates property
-func (m *GraphServiceClient) DirectoryRoleTemplates() *i2a252d42835bdab6d88bf938595da6cf029001f9ca970d6f599cecf0ca27f8e5.DirectoryRoleTemplatesRequestBuilder {
-	return i2a252d42835bdab6d88bf938595da6cf029001f9ca970d6f599cecf0ca27f8e5.NewDirectoryRoleTemplatesRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// DirectoryRoleTemplatesById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.directoryRoleTemplates.item collection
-func (m *GraphServiceClient) DirectoryRoleTemplatesById(id string) *icf62d3bb4e29c8437041430705851ef556cb3cf91d77df26e8eaf92a32e9814e.DirectoryRoleTemplateItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["directoryRoleTemplate%2Did"] = id
-	}
-	return icf62d3bb4e29c8437041430705851ef556cb3cf91d77df26e8eaf92a32e9814e.NewDirectoryRoleTemplateItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
+//// DirectoryRoleTemplatesById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.directoryRoleTemplates.item collection
+//func (m *GraphServiceClient) DirectoryRoleTemplatesById(id string) *icf62d3bb4e29c8437041430705851ef556cb3cf91d77df26e8eaf92a32e9814e.DirectoryRoleTemplateItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["directoryRoleTemplate%2Did"] = id
+//	}
+//	return icf62d3bb4e29c8437041430705851ef556cb3cf91d77df26e8eaf92a32e9814e.NewDirectoryRoleTemplateItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
 
 //// DomainDnsRecords the domainDnsRecords property
 //func (m *GraphServiceClient) DomainDnsRecords()(*iaca6694a878291d0e4021155b406c19d3080cdfc382b456e43c71264d4d9e519.DomainDnsRecordsRequestBuilder) {
@@ -556,22 +557,22 @@ func (m *GraphServiceClient) DirectoryRoleTemplatesById(id string) *icf62d3bb4e2
 //	return i71117da372286e863c042a526ec1361696ab14b838a5b77db5bc54386d436543.NewMeRequestBuilderInternal(m.pathParameters, m.requestAdapter)
 //}
 
-// Oauth2PermissionGrants the oauth2PermissionGrants property
-func (m *GraphServiceClient) Oauth2PermissionGrants() *i86cada4d4a5f2f8a9d1e7a85eacd70a661ea7b20d2737008c0719e95b5be3e16.Oauth2PermissionGrantsRequestBuilder {
-	return i86cada4d4a5f2f8a9d1e7a85eacd70a661ea7b20d2737008c0719e95b5be3e16.NewOauth2PermissionGrantsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
+//// Oauth2PermissionGrants the oauth2PermissionGrants property
+//func (m *GraphServiceClient) Oauth2PermissionGrants() *i86cada4d4a5f2f8a9d1e7a85eacd70a661ea7b20d2737008c0719e95b5be3e16.Oauth2PermissionGrantsRequestBuilder {
+//	return i86cada4d4a5f2f8a9d1e7a85eacd70a661ea7b20d2737008c0719e95b5be3e16.NewOauth2PermissionGrantsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
 
-// Oauth2PermissionGrantsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.oauth2PermissionGrants.item collection
-func (m *GraphServiceClient) Oauth2PermissionGrantsById(id string) *iebc0e64fadb20869bf2f248e5faa74af9d045c37a2822fb75e314761ad44656d.OAuth2PermissionGrantItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["oAuth2PermissionGrant%2Did"] = id
-	}
-	return iebc0e64fadb20869bf2f248e5faa74af9d045c37a2822fb75e314761ad44656d.NewOAuth2PermissionGrantItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
+//// Oauth2PermissionGrantsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.oauth2PermissionGrants.item collection
+//func (m *GraphServiceClient) Oauth2PermissionGrantsById(id string) *iebc0e64fadb20869bf2f248e5faa74af9d045c37a2822fb75e314761ad44656d.OAuth2PermissionGrantItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["oAuth2PermissionGrant%2Did"] = id
+//	}
+//	return iebc0e64fadb20869bf2f248e5faa74af9d045c37a2822fb75e314761ad44656d.NewOAuth2PermissionGrantItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
 
 //// Organization the organization property
 //func (m *GraphServiceClient) Organization()(*ic949a0bb5066d68760e8502a7f9db83f571d9e01e38fad4aadf7268188e52df0.OrganizationRequestBuilder) {
@@ -589,87 +590,87 @@ func (m *GraphServiceClient) Oauth2PermissionGrantsById(id string) *iebc0e64fadb
 //    return ia5422e2deae41871358311d10a7b0d4a60e914828d2fe80bf0a1bd96c1ff2a2f.NewOrganizationItemRequestBuilderInternal(urlTplParams, m.requestAdapter);
 //}
 // PermissionGrants the permissionGrants property
-func (m *GraphServiceClient) PermissionGrants() *i1a1369b1521a8ac4885166fd68eae4247248a891006fea464d2eea2a271b2cdb.PermissionGrantsRequestBuilder {
-	return i1a1369b1521a8ac4885166fd68eae4247248a891006fea464d2eea2a271b2cdb.NewPermissionGrantsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
+//func (m *GraphServiceClient) PermissionGrants() *i1a1369b1521a8ac4885166fd68eae4247248a891006fea464d2eea2a271b2cdb.PermissionGrantsRequestBuilder {
+//	return i1a1369b1521a8ac4885166fd68eae4247248a891006fea464d2eea2a271b2cdb.NewPermissionGrantsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
 
-// PermissionGrantsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.permissionGrants.item collection
-func (m *GraphServiceClient) PermissionGrantsById(id string) *i23bab38fb8688d4bab0b6ffc533eb085d40e58af49a27ab228a8d1ad3e0ab203.ResourceSpecificPermissionGrantItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["resourceSpecificPermissionGrant%2Did"] = id
-	}
-	return i23bab38fb8688d4bab0b6ffc533eb085d40e58af49a27ab228a8d1ad3e0ab203.NewResourceSpecificPermissionGrantItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
+//// PermissionGrantsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.permissionGrants.item collection
+//func (m *GraphServiceClient) PermissionGrantsById(id string) *i23bab38fb8688d4bab0b6ffc533eb085d40e58af49a27ab228a8d1ad3e0ab203.ResourceSpecificPermissionGrantItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["resourceSpecificPermissionGrant%2Did"] = id
+//	}
+//	return i23bab38fb8688d4bab0b6ffc533eb085d40e58af49a27ab228a8d1ad3e0ab203.NewResourceSpecificPermissionGrantItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
+//
+//// Print the print property
+//func (m *GraphServiceClient) Print() *i9429d7aae2f5c1dabbecc9411e8ad2b733d29338bc0c0436eeccc94605c461b7.PrintRequestBuilder {
+//	return i9429d7aae2f5c1dabbecc9411e8ad2b733d29338bc0c0436eeccc94605c461b7.NewPrintRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// Privacy the privacy property
+//func (m *GraphServiceClient) Privacy() *i58857a108d6e260e56ef0dd7e783668388f113eb436006780703ac59f0abb3b1.PrivacyRequestBuilder {
+//	return i58857a108d6e260e56ef0dd7e783668388f113eb436006780703ac59f0abb3b1.NewPrivacyRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// ScopedRoleMemberships the scopedRoleMemberships property
+//func (m *GraphServiceClient) ScopedRoleMemberships() *ice10f31b9db59ba91184d2b882172edb754f885050cf0830aa2b7c8ff880556b.ScopedRoleMembershipsRequestBuilder {
+//	return ice10f31b9db59ba91184d2b882172edb754f885050cf0830aa2b7c8ff880556b.NewScopedRoleMembershipsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// ScopedRoleMembershipsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.scopedRoleMemberships.item collection
+//func (m *GraphServiceClient) ScopedRoleMembershipsById(id string) *id5e9a05bae8f5cd30c57fd87690f009f004424eafeb45208f44e7ed46f8ba725.ScopedRoleMembershipItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["scopedRoleMembership%2Did"] = id
+//	}
+//	return id5e9a05bae8f5cd30c57fd87690f009f004424eafeb45208f44e7ed46f8ba725.NewScopedRoleMembershipItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
 
-// Print the print property
-func (m *GraphServiceClient) Print() *i9429d7aae2f5c1dabbecc9411e8ad2b733d29338bc0c0436eeccc94605c461b7.PrintRequestBuilder {
-	return i9429d7aae2f5c1dabbecc9411e8ad2b733d29338bc0c0436eeccc94605c461b7.NewPrintRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// Privacy the privacy property
-func (m *GraphServiceClient) Privacy() *i58857a108d6e260e56ef0dd7e783668388f113eb436006780703ac59f0abb3b1.PrivacyRequestBuilder {
-	return i58857a108d6e260e56ef0dd7e783668388f113eb436006780703ac59f0abb3b1.NewPrivacyRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// ScopedRoleMemberships the scopedRoleMemberships property
-func (m *GraphServiceClient) ScopedRoleMemberships() *ice10f31b9db59ba91184d2b882172edb754f885050cf0830aa2b7c8ff880556b.ScopedRoleMembershipsRequestBuilder {
-	return ice10f31b9db59ba91184d2b882172edb754f885050cf0830aa2b7c8ff880556b.NewScopedRoleMembershipsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// ScopedRoleMembershipsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.scopedRoleMemberships.item collection
-func (m *GraphServiceClient) ScopedRoleMembershipsById(id string) *id5e9a05bae8f5cd30c57fd87690f009f004424eafeb45208f44e7ed46f8ba725.ScopedRoleMembershipItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["scopedRoleMembership%2Did"] = id
-	}
-	return id5e9a05bae8f5cd30c57fd87690f009f004424eafeb45208f44e7ed46f8ba725.NewScopedRoleMembershipItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
-
-// Search the search property
-func (m *GraphServiceClient) Search() *i286f3babd79fe9ec3b0f52b6ed5910842c0adaeff02be1843d0e01c56d9ba6d9.SearchRequestBuilder {
-	return i286f3babd79fe9ec3b0f52b6ed5910842c0adaeff02be1843d0e01c56d9ba6d9.NewSearchRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// ServicePrincipals the servicePrincipals property
-func (m *GraphServiceClient) ServicePrincipals() *i009f47bbce65ccdb7303730eed71e6bab3ae2f8e4e918bc9e94341d28624af97.ServicePrincipalsRequestBuilder {
-	return i009f47bbce65ccdb7303730eed71e6bab3ae2f8e4e918bc9e94341d28624af97.NewServicePrincipalsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// ServicePrincipalsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.servicePrincipals.item collection
-func (m *GraphServiceClient) ServicePrincipalsById(id string) *i120b7d5508b5c9e9e49c562cc2c54282d0cac65c8ec72e8928f45cc697956915.ServicePrincipalItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["servicePrincipal%2Did"] = id
-	}
-	return i120b7d5508b5c9e9e49c562cc2c54282d0cac65c8ec72e8928f45cc697956915.NewServicePrincipalItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
-
-// Subscriptions the subscriptions property
-func (m *GraphServiceClient) Subscriptions() *idb8230b65f4a369c23b4d9b41ebe568c657c92f8f77fe36d16d64528b3a317a3.SubscriptionsRequestBuilder {
-	return idb8230b65f4a369c23b4d9b41ebe568c657c92f8f77fe36d16d64528b3a317a3.NewSubscriptionsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// SubscriptionsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.subscriptions.item collection
-func (m *GraphServiceClient) SubscriptionsById(id string) *if405c95e51d6685837bc60276ac44a0be46f00a5930cc59ce198c3a5119099a0.SubscriptionItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["subscription%2Did"] = id
-	}
-	return if405c95e51d6685837bc60276ac44a0be46f00a5930cc59ce198c3a5119099a0.NewSubscriptionItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
+//// Search the search property
+//func (m *GraphServiceClient) Search() *i286f3babd79fe9ec3b0f52b6ed5910842c0adaeff02be1843d0e01c56d9ba6d9.SearchRequestBuilder {
+//	return i286f3babd79fe9ec3b0f52b6ed5910842c0adaeff02be1843d0e01c56d9ba6d9.NewSearchRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// ServicePrincipals the servicePrincipals property
+//func (m *GraphServiceClient) ServicePrincipals() *i009f47bbce65ccdb7303730eed71e6bab3ae2f8e4e918bc9e94341d28624af97.ServicePrincipalsRequestBuilder {
+//	return i009f47bbce65ccdb7303730eed71e6bab3ae2f8e4e918bc9e94341d28624af97.NewServicePrincipalsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// ServicePrincipalsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.servicePrincipals.item collection
+//func (m *GraphServiceClient) ServicePrincipalsById(id string) *i120b7d5508b5c9e9e49c562cc2c54282d0cac65c8ec72e8928f45cc697956915.ServicePrincipalItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["servicePrincipal%2Did"] = id
+//	}
+//	return i120b7d5508b5c9e9e49c562cc2c54282d0cac65c8ec72e8928f45cc697956915.NewServicePrincipalItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
+//
+//// Subscriptions the subscriptions property
+//func (m *GraphServiceClient) Subscriptions() *idb8230b65f4a369c23b4d9b41ebe568c657c92f8f77fe36d16d64528b3a317a3.SubscriptionsRequestBuilder {
+//	return idb8230b65f4a369c23b4d9b41ebe568c657c92f8f77fe36d16d64528b3a317a3.NewSubscriptionsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// SubscriptionsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.subscriptions.item collection
+//func (m *GraphServiceClient) SubscriptionsById(id string) *if405c95e51d6685837bc60276ac44a0be46f00a5930cc59ce198c3a5119099a0.SubscriptionItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["subscription%2Did"] = id
+//	}
+//	return if405c95e51d6685837bc60276ac44a0be46f00a5930cc59ce198c3a5119099a0.NewSubscriptionItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
 
 //// Users the users property
 //func (m *GraphServiceClient) Users() *if6ffd1464db2d9c22e351b03e4c00ebd24a5353cd70ffb7f56cfad1c3ceec329.UsersRequestBuilder {
