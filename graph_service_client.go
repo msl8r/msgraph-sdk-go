@@ -5,9 +5,6 @@ import (
 	i878a80d2330e89d26896388a3f487eef27b0a0e6c010c493bf80be1452208f91 "github.com/microsoft/kiota-abstractions-go/serialization"
 	i25911dc319edd61cbac496af7eab5ef20b6069a42515e22ec6a9bc97bf598488 "github.com/microsoft/kiota-serialization-json-go"
 	i7294a22093d408fdca300f11b81a887d89c47b764af06c8b803e2323973fdb83 "github.com/microsoft/kiota-serialization-text-go"
-	ieaa2790c8b7fa361674e69e4a385e279c8c641adf79d86e5b0ca566591a507e8 "github.com/microsoftgraph/msgraph-sdk-go/agreements"
-	i0832d6fdb5fdd25a7a1f3a0a99c90d6ef5c44fdc1f1e1f72f7d777d32cf5ea19 "github.com/microsoftgraph/msgraph-sdk-go/agreements/item"
-	i7d140130aac6882792a019b5ebe51fe8d69dfd63ec213c2e3cd98282ce2d0428 "github.com/microsoftgraph/msgraph-sdk-go/appcatalogs"
 	i93194122344a685a2f9264205dc6d89a5ba39afdcea57fd0ade8f54b6f137c02 "github.com/microsoftgraph/msgraph-sdk-go/applications"
 	i1cb1089a14118ff1e1e1bd2d5f465b91b163bfc288e9bb57dc21502014e6b0c1 "github.com/microsoftgraph/msgraph-sdk-go/applications/item"
 	i5310ba7d4cfddbf5de4c1be94a30f9ca8c747c30a87e76587ce88d1cbfff01b4 "github.com/microsoftgraph/msgraph-sdk-go/applicationtemplates"
@@ -16,17 +13,8 @@ import (
 	i1dc06c4b7f499cb445a6c55e466abd6d7466bb35a2683c675909db23c57898e7 "github.com/microsoftgraph/msgraph-sdk-go/authenticationmethodconfigurations"
 	ieffc66507ab5f28c86663605f795e5c0be2a4353a94b34e8db2ddb67b0d285cf "github.com/microsoftgraph/msgraph-sdk-go/authenticationmethodconfigurations/item"
 	id81f15a01b3ceaefa8b1b55f4ee944912f2179aafc4d873f0a2eaf0853eeccd0 "github.com/microsoftgraph/msgraph-sdk-go/authenticationmethodspolicy"
-	if398f5c2f1cb53106e045240edd469d82f1854899fd95cfdf8f559b19375750c "github.com/microsoftgraph/msgraph-sdk-go/branding"
 	i535d6c02ba98f73ff3a8c1c12a035ba5de51606f93aa2c0babdfed56fe505550 "github.com/microsoftgraph/msgraph-sdk-go/certificatebasedauthconfiguration"
 	i861ab10f93223993f014e54921d0feda5bc5dc9a8996dbbbb728e672d3e8162e "github.com/microsoftgraph/msgraph-sdk-go/certificatebasedauthconfiguration/item"
-	ibaef614e7692eebc6aaa8080b8ac29169fdf539f24925bc1de4465a3fcdac177 "github.com/microsoftgraph/msgraph-sdk-go/chats"
-	i4c038322c9990a1737934ea712b7d72201832cc50fbe4b6e382968270c3611c3 "github.com/microsoftgraph/msgraph-sdk-go/chats/item"
-	i51b9802eedc1a25686534d117657be902df58c07e90ac6ea84501100998084d9 "github.com/microsoftgraph/msgraph-sdk-go/communications"
-	ia4b736f581ceef30e9ef8cebd9a6c2b932628e087982ff3dd2c9a0f1a920a918 "github.com/microsoftgraph/msgraph-sdk-go/compliance"
-	icabdee72951e77325f237b36d388a199c87e65f67652b6bb85723aba847d7e83 "github.com/microsoftgraph/msgraph-sdk-go/connections"
-	i728b903f252feeed28263ff4e0da95a1d0f7c831116db07abb00de41db959892 "github.com/microsoftgraph/msgraph-sdk-go/connections/item"
-	if51cca2652371587dbc02e65260e291435a6a8f7f2ffb419f26c3b9d2a033f57 "github.com/microsoftgraph/msgraph-sdk-go/contacts"
-	i3ea73b2c3d03b959a8d3906c2b1b073951feb694dd6984ab1eea4e6b8c1d0858 "github.com/microsoftgraph/msgraph-sdk-go/contacts/item"
 	ib14d748b564c787931c10f1c7ba6856eeddea29a5b9e5c5c27eb1224ff65e5c4 "github.com/microsoftgraph/msgraph-sdk-go/directory"
 	i185698f71f6301975f0627ee999e6e91920d8fa9c00bdef3487b9f349e2df04e "github.com/microsoftgraph/msgraph-sdk-go/directoryobjects"
 	iec09f6187bc7a92a35b70b7fc70909dda436df66ea66bc31a862c86f0819cc15 "github.com/microsoftgraph/msgraph-sdk-go/directoryobjects/item"
@@ -34,8 +22,6 @@ import (
 	i960f074bae2d1f849aec23c162b7be41055a1485f8efd075e3c89717cc4ac8f5 "github.com/microsoftgraph/msgraph-sdk-go/directoryroles/item"
 	i2a252d42835bdab6d88bf938595da6cf029001f9ca970d6f599cecf0ca27f8e5 "github.com/microsoftgraph/msgraph-sdk-go/directoryroletemplates"
 	icf62d3bb4e29c8437041430705851ef556cb3cf91d77df26e8eaf92a32e9814e "github.com/microsoftgraph/msgraph-sdk-go/directoryroletemplates/item"
-	ia6e876e3ed2d92c29c13dbc8c37513bc38d0d5f05ab9321e43a25ff336912a2d "github.com/microsoftgraph/msgraph-sdk-go/groups"
-	if697b88a41912c7fd65ee1e2a7160ff70a9f5fd5c48778b62d0d0ef4bc46fdb9 "github.com/microsoftgraph/msgraph-sdk-go/groups/item"
 	i71117da372286e863c042a526ec1361696ab14b838a5b77db5bc54386d436543 "github.com/microsoftgraph/msgraph-sdk-go/me"
 	i86cada4d4a5f2f8a9d1e7a85eacd70a661ea7b20d2737008c0719e95b5be3e16 "github.com/microsoftgraph/msgraph-sdk-go/oauth2permissiongrants"
 	iebc0e64fadb20869bf2f248e5faa74af9d045c37a2822fb75e314761ad44656d "github.com/microsoftgraph/msgraph-sdk-go/oauth2permissiongrants/item"
@@ -50,8 +36,8 @@ import (
 	i120b7d5508b5c9e9e49c562cc2c54282d0cac65c8ec72e8928f45cc697956915 "github.com/microsoftgraph/msgraph-sdk-go/serviceprincipals/item"
 	idb8230b65f4a369c23b4d9b41ebe568c657c92f8f77fe36d16d64528b3a317a3 "github.com/microsoftgraph/msgraph-sdk-go/subscriptions"
 	if405c95e51d6685837bc60276ac44a0be46f00a5930cc59ce198c3a5119099a0 "github.com/microsoftgraph/msgraph-sdk-go/subscriptions/item"
-	if6ffd1464db2d9c22e351b03e4c00ebd24a5353cd70ffb7f56cfad1c3ceec329 "github.com/microsoftgraph/msgraph-sdk-go/users"
-	i009581390843c78f63b06f9dcefeeb5ef2a124a2ac1dcbad3adbe4d0d5e650af "github.com/microsoftgraph/msgraph-sdk-go/users/item"
+	//if6ffd1464db2d9c22e351b03e4c00ebd24a5353cd70ffb7f56cfad1c3ceec329 "github.com/microsoftgraph/msgraph-sdk-go/users"
+	//i009581390843c78f63b06f9dcefeeb5ef2a124a2ac1dcbad3adbe4d0d5e650af "github.com/microsoftgraph/msgraph-sdk-go/users/item"
 )
 
 // GraphServiceClient the main entry point of the SDK, exposes the configuration and the fluent API.
@@ -86,27 +72,27 @@ type GraphServiceClient struct {
 //	return i16322b5a209cc0bd8b212f5c6ff6e00e3c536005637b4e1beb5a7076653b687a.NewAgreementAcceptanceItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
 //}
 
-// Agreements the agreements property
-func (m *GraphServiceClient) Agreements() *ieaa2790c8b7fa361674e69e4a385e279c8c641adf79d86e5b0ca566591a507e8.AgreementsRequestBuilder {
-	return ieaa2790c8b7fa361674e69e4a385e279c8c641adf79d86e5b0ca566591a507e8.NewAgreementsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
+//// Agreements the agreements property
+//func (m *GraphServiceClient) Agreements() *ieaa2790c8b7fa361674e69e4a385e279c8c641adf79d86e5b0ca566591a507e8.AgreementsRequestBuilder {
+//	return ieaa2790c8b7fa361674e69e4a385e279c8c641adf79d86e5b0ca566591a507e8.NewAgreementsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// AgreementsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.agreements.item collection
+//func (m *GraphServiceClient) AgreementsById(id string) *i0832d6fdb5fdd25a7a1f3a0a99c90d6ef5c44fdc1f1e1f72f7d777d32cf5ea19.AgreementItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["agreement%2Did"] = id
+//	}
+//	return i0832d6fdb5fdd25a7a1f3a0a99c90d6ef5c44fdc1f1e1f72f7d777d32cf5ea19.NewAgreementItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
 
-// AgreementsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.agreements.item collection
-func (m *GraphServiceClient) AgreementsById(id string) *i0832d6fdb5fdd25a7a1f3a0a99c90d6ef5c44fdc1f1e1f72f7d777d32cf5ea19.AgreementItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["agreement%2Did"] = id
-	}
-	return i0832d6fdb5fdd25a7a1f3a0a99c90d6ef5c44fdc1f1e1f72f7d777d32cf5ea19.NewAgreementItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
-
-// AppCatalogs the appCatalogs property
-func (m *GraphServiceClient) AppCatalogs() *i7d140130aac6882792a019b5ebe51fe8d69dfd63ec213c2e3cd98282ce2d0428.AppCatalogsRequestBuilder {
-	return i7d140130aac6882792a019b5ebe51fe8d69dfd63ec213c2e3cd98282ce2d0428.NewAppCatalogsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
+//// AppCatalogs the appCatalogs property
+//func (m *GraphServiceClient) AppCatalogs() *i7d140130aac6882792a019b5ebe51fe8d69dfd63ec213c2e3cd98282ce2d0428.AppCatalogsRequestBuilder {
+//	return i7d140130aac6882792a019b5ebe51fe8d69dfd63ec213c2e3cd98282ce2d0428.NewAppCatalogsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
 
 // Applications the applications property
 func (m *GraphServiceClient) Applications() *i93194122344a685a2f9264205dc6d89a5ba39afdcea57fd0ade8f54b6f137c02.ApplicationsRequestBuilder {
@@ -169,10 +155,10 @@ func (m *GraphServiceClient) AuthenticationMethodsPolicy() *id81f15a01b3ceaefa8b
 	return id81f15a01b3ceaefa8b1b55f4ee944912f2179aafc4d873f0a2eaf0853eeccd0.NewAuthenticationMethodsPolicyRequestBuilderInternal(m.pathParameters, m.requestAdapter)
 }
 
-// Branding the branding property
-func (m *GraphServiceClient) Branding() *if398f5c2f1cb53106e045240edd469d82f1854899fd95cfdf8f559b19375750c.BrandingRequestBuilder {
-	return if398f5c2f1cb53106e045240edd469d82f1854899fd95cfdf8f559b19375750c.NewBrandingRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
+//// Branding the branding property
+//func (m *GraphServiceClient) Branding() *if398f5c2f1cb53106e045240edd469d82f1854899fd95cfdf8f559b19375750c.BrandingRequestBuilder {
+//	return if398f5c2f1cb53106e045240edd469d82f1854899fd95cfdf8f559b19375750c.NewBrandingRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
 
 // CertificateBasedAuthConfiguration the certificateBasedAuthConfiguration property
 func (m *GraphServiceClient) CertificateBasedAuthConfiguration() *i535d6c02ba98f73ff3a8c1c12a035ba5de51606f93aa2c0babdfed56fe505550.CertificateBasedAuthConfigurationRequestBuilder {
@@ -191,49 +177,50 @@ func (m *GraphServiceClient) CertificateBasedAuthConfigurationById(id string) *i
 	return i861ab10f93223993f014e54921d0feda5bc5dc9a8996dbbbb728e672d3e8162e.NewCertificateBasedAuthConfigurationItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
 }
 
-// Chats the chats property
-func (m *GraphServiceClient) Chats() *ibaef614e7692eebc6aaa8080b8ac29169fdf539f24925bc1de4465a3fcdac177.ChatsRequestBuilder {
-	return ibaef614e7692eebc6aaa8080b8ac29169fdf539f24925bc1de4465a3fcdac177.NewChatsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
+//
+//// Chats the chats property
+//func (m *GraphServiceClient) Chats() *ibaef614e7692eebc6aaa8080b8ac29169fdf539f24925bc1de4465a3fcdac177.ChatsRequestBuilder {
+//	return ibaef614e7692eebc6aaa8080b8ac29169fdf539f24925bc1de4465a3fcdac177.NewChatsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// ChatsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.chats.item collection
+//func (m *GraphServiceClient) ChatsById(id string) *i4c038322c9990a1737934ea712b7d72201832cc50fbe4b6e382968270c3611c3.ChatItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["chat%2Did"] = id
+//	}
+//	return i4c038322c9990a1737934ea712b7d72201832cc50fbe4b6e382968270c3611c3.NewChatItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
 
-// ChatsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.chats.item collection
-func (m *GraphServiceClient) ChatsById(id string) *i4c038322c9990a1737934ea712b7d72201832cc50fbe4b6e382968270c3611c3.ChatItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["chat%2Did"] = id
-	}
-	return i4c038322c9990a1737934ea712b7d72201832cc50fbe4b6e382968270c3611c3.NewChatItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
-
-// Communications the communications property
-func (m *GraphServiceClient) Communications() *i51b9802eedc1a25686534d117657be902df58c07e90ac6ea84501100998084d9.CommunicationsRequestBuilder {
-	return i51b9802eedc1a25686534d117657be902df58c07e90ac6ea84501100998084d9.NewCommunicationsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// Compliance the compliance property
-func (m *GraphServiceClient) Compliance() *ia4b736f581ceef30e9ef8cebd9a6c2b932628e087982ff3dd2c9a0f1a920a918.ComplianceRequestBuilder {
-	return ia4b736f581ceef30e9ef8cebd9a6c2b932628e087982ff3dd2c9a0f1a920a918.NewComplianceRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// Connections the connections property
-func (m *GraphServiceClient) Connections() *icabdee72951e77325f237b36d388a199c87e65f67652b6bb85723aba847d7e83.ConnectionsRequestBuilder {
-	return icabdee72951e77325f237b36d388a199c87e65f67652b6bb85723aba847d7e83.NewConnectionsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// ConnectionsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.connections.item collection
-func (m *GraphServiceClient) ConnectionsById(id string) *i728b903f252feeed28263ff4e0da95a1d0f7c831116db07abb00de41db959892.ExternalConnectionItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["externalConnection%2Did"] = id
-	}
-	return i728b903f252feeed28263ff4e0da95a1d0f7c831116db07abb00de41db959892.NewExternalConnectionItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
+//// Communications the communications property
+//func (m *GraphServiceClient) Communications() *i51b9802eedc1a25686534d117657be902df58c07e90ac6ea84501100998084d9.CommunicationsRequestBuilder {
+//	return i51b9802eedc1a25686534d117657be902df58c07e90ac6ea84501100998084d9.NewCommunicationsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// Compliance the compliance property
+//func (m *GraphServiceClient) Compliance() *ia4b736f581ceef30e9ef8cebd9a6c2b932628e087982ff3dd2c9a0f1a920a918.ComplianceRequestBuilder {
+//	return ia4b736f581ceef30e9ef8cebd9a6c2b932628e087982ff3dd2c9a0f1a920a918.NewComplianceRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// Connections the connections property
+//func (m *GraphServiceClient) Connections() *icabdee72951e77325f237b36d388a199c87e65f67652b6bb85723aba847d7e83.ConnectionsRequestBuilder {
+//	return icabdee72951e77325f237b36d388a199c87e65f67652b6bb85723aba847d7e83.NewConnectionsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// ConnectionsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.connections.item collection
+//func (m *GraphServiceClient) ConnectionsById(id string) *i728b903f252feeed28263ff4e0da95a1d0f7c831116db07abb00de41db959892.ExternalConnectionItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["externalConnection%2Did"] = id
+//	}
+//	return i728b903f252feeed28263ff4e0da95a1d0f7c831116db07abb00de41db959892.NewExternalConnectionItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
 
 // NewGraphServiceClient instantiates a new GraphServiceClient and sets the default values.
 func NewGraphServiceClient(requestAdapter i2ae4187f7daee263371cb1c977df639813ab50ffa529013b7437480d1ec0158f.RequestAdapter) *GraphServiceClient {
@@ -259,22 +246,22 @@ func NewGraphServiceClient(requestAdapter i2ae4187f7daee263371cb1c977df639813ab5
 	return m
 }
 
-// Contacts the contacts property
-func (m *GraphServiceClient) Contacts() *if51cca2652371587dbc02e65260e291435a6a8f7f2ffb419f26c3b9d2a033f57.ContactsRequestBuilder {
-	return if51cca2652371587dbc02e65260e291435a6a8f7f2ffb419f26c3b9d2a033f57.NewContactsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// ContactsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.contacts.item collection
-func (m *GraphServiceClient) ContactsById(id string) *i3ea73b2c3d03b959a8d3906c2b1b073951feb694dd6984ab1eea4e6b8c1d0858.OrgContactItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["orgContact%2Did"] = id
-	}
-	return i3ea73b2c3d03b959a8d3906c2b1b073951feb694dd6984ab1eea4e6b8c1d0858.NewOrgContactItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
+//// Contacts the contacts property
+//func (m *GraphServiceClient) Contacts() *if51cca2652371587dbc02e65260e291435a6a8f7f2ffb419f26c3b9d2a033f57.ContactsRequestBuilder {
+//	return if51cca2652371587dbc02e65260e291435a6a8f7f2ffb419f26c3b9d2a033f57.NewContactsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// ContactsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.contacts.item collection
+//func (m *GraphServiceClient) ContactsById(id string) *i3ea73b2c3d03b959a8d3906c2b1b073951feb694dd6984ab1eea4e6b8c1d0858.OrgContactItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["orgContact%2Did"] = id
+//	}
+//	return i3ea73b2c3d03b959a8d3906c2b1b073951feb694dd6984ab1eea4e6b8c1d0858.NewOrgContactItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
 
 //// Contracts the contracts property
 //func (m *GraphServiceClient) Contracts()(*ie3631868038c44f490dbc03525ac7249d0523c29cc45cbb25b2aebcf470d6c0c.ContractsRequestBuilder) {
@@ -458,21 +445,21 @@ func (m *GraphServiceClient) DirectoryRoleTemplatesById(id string) *icf62d3bb4e2
 //    return icd43f65a6cebd6c2685c244d7f46f49a951d8647717cded612ba79705e6aa7c7.NewGroupLifecyclePolicyItemRequestBuilderInternal(urlTplParams, m.requestAdapter);
 //}
 // Groups the groups property
-func (m *GraphServiceClient) Groups() *ia6e876e3ed2d92c29c13dbc8c37513bc38d0d5f05ab9321e43a25ff336912a2d.GroupsRequestBuilder {
-	return ia6e876e3ed2d92c29c13dbc8c37513bc38d0d5f05ab9321e43a25ff336912a2d.NewGroupsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// GroupsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.groups.item collection
-func (m *GraphServiceClient) GroupsById(id string) *if697b88a41912c7fd65ee1e2a7160ff70a9f5fd5c48778b62d0d0ef4bc46fdb9.GroupItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["group%2Did"] = id
-	}
-	return if697b88a41912c7fd65ee1e2a7160ff70a9f5fd5c48778b62d0d0ef4bc46fdb9.NewGroupItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
+//func (m *GraphServiceClient) Groups() *ia6e876e3ed2d92c29c13dbc8c37513bc38d0d5f05ab9321e43a25ff336912a2d.GroupsRequestBuilder {
+//	return ia6e876e3ed2d92c29c13dbc8c37513bc38d0d5f05ab9321e43a25ff336912a2d.NewGroupsRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// GroupsById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.groups.item collection
+//func (m *GraphServiceClient) GroupsById(id string) *if697b88a41912c7fd65ee1e2a7160ff70a9f5fd5c48778b62d0d0ef4bc46fdb9.GroupItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["group%2Did"] = id
+//	}
+//	return if697b88a41912c7fd65ee1e2a7160ff70a9f5fd5c48778b62d0d0ef4bc46fdb9.NewGroupItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
 
 //// GroupSettings the groupSettings property
 //func (m *GraphServiceClient) GroupSettings()(*i4794c103c0d044c27a3ca3af0a0e498e93a9863420c1a4e7a29ef37590053c7b.GroupSettingsRequestBuilder) {
@@ -685,19 +672,19 @@ func (m *GraphServiceClient) SubscriptionsById(id string) *if405c95e51d6685837bc
 	return if405c95e51d6685837bc60276ac44a0be46f00a5930cc59ce198c3a5119099a0.NewSubscriptionItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
 }
 
-// Users the users property
-func (m *GraphServiceClient) Users() *if6ffd1464db2d9c22e351b03e4c00ebd24a5353cd70ffb7f56cfad1c3ceec329.UsersRequestBuilder {
-	return if6ffd1464db2d9c22e351b03e4c00ebd24a5353cd70ffb7f56cfad1c3ceec329.NewUsersRequestBuilderInternal(m.pathParameters, m.requestAdapter)
-}
-
-// UsersById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.users.item collection
-func (m *GraphServiceClient) UsersById(id string) *i009581390843c78f63b06f9dcefeeb5ef2a124a2ac1dcbad3adbe4d0d5e650af.UserItemRequestBuilder {
-	urlTplParams := make(map[string]string)
-	for idx, item := range m.pathParameters {
-		urlTplParams[idx] = item
-	}
-	if id != "" {
-		urlTplParams["user%2Did"] = id
-	}
-	return i009581390843c78f63b06f9dcefeeb5ef2a124a2ac1dcbad3adbe4d0d5e650af.NewUserItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
-}
+//// Users the users property
+//func (m *GraphServiceClient) Users() *if6ffd1464db2d9c22e351b03e4c00ebd24a5353cd70ffb7f56cfad1c3ceec329.UsersRequestBuilder {
+//	return if6ffd1464db2d9c22e351b03e4c00ebd24a5353cd70ffb7f56cfad1c3ceec329.NewUsersRequestBuilderInternal(m.pathParameters, m.requestAdapter)
+//}
+//
+//// UsersById gets an item from the github.com/microsoftgraph/msgraph-sdk-go/.users.item collection
+//func (m *GraphServiceClient) UsersById(id string) *i009581390843c78f63b06f9dcefeeb5ef2a124a2ac1dcbad3adbe4d0d5e650af.UserItemRequestBuilder {
+//	urlTplParams := make(map[string]string)
+//	for idx, item := range m.pathParameters {
+//		urlTplParams[idx] = item
+//	}
+//	if id != "" {
+//		urlTplParams["user%2Did"] = id
+//	}
+//	return i009581390843c78f63b06f9dcefeeb5ef2a124a2ac1dcbad3adbe4d0d5e650af.NewUserItemRequestBuilderInternal(urlTplParams, m.requestAdapter)
+//}
